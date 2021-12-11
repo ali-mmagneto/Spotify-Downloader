@@ -3,15 +3,35 @@
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "keywords": [
       "telegram",
-      "spotify",
-      "download",
+      "auto-filter",
+      "filter",
       "best",
-      "turkey"
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
     ],
-    "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/EvamariaTG/EvaMaria",
-    "env": {,
+    "website": "https://github.com/ali-mmagneto/Spotify-Downloader",
+    "repository": "https://github.com/ali-mmagneto/Spotify-Downloader",
+    "env": {
         "TOKEN": {
-            "description": "Bot tokenin.",
+            "description": "Your bot token.",
             "value": ""
         }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
