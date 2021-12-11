@@ -6,5 +6,5 @@ Every user is accountable for his own actions and should not hold this account a
 
 This project is a Telegram bot.
 The bot will receive a url address to a Spotify playlist, scrape every song, download and send them to the user.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ali-mmagneto/Spotify-Downloader)
 
