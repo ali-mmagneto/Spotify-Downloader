@@ -1,1 +1,16 @@
-Token : "" 
+{
+    "name": "EvaMariaBot",
+    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "keywords": [
+      "telegram",
+      "spotify",
+      "download",
+      "best",
+      "turkey"
+    ],
+    "website": "https://github.com/EvamariaTG/EvaMaria",
+    "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "env": {
+        "TOKEN": {
+            "description": "Bot tokenin.",
+            "value": ""
